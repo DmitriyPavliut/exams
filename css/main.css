@@ -44,7 +44,7 @@
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    margin: 0 23.5px;
+    margin: 0 23px;
 }
 
 .header-content .navigation_item .menu-link:hover{
@@ -56,7 +56,7 @@
 }
 
 .header-content .navigation_item .cart {
-    margin-left: 220.5px;
+    margin-left: 220px;
 }
 
 .slider {
@@ -336,7 +336,7 @@
 
 .insta-icon:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
 }
 
 .footer-text {
