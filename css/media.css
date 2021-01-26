@@ -133,7 +133,7 @@
 
 @media screen and (max-width: 425px) {
     * {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .header-content .logo a img{
