@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -25,18 +26,18 @@
                 <a href="#"><img src="img/nerds-logo.png" alt="logo"></a>
             </div>
 
-            <nav>
                 <input id="menu_check" type="checkbox">
-                <label for="menu_check" class="menu_label"></label>
+                <label for="menu_check" class="menu_label"><span></span></label>
 
                 <div class="navigation_item">
                     <a href="#about" class="menu-link">Студия</a>
                     <a href="#customers" class="menu-link">Клиенты</a>
                     <a href="#contacts" class="menu-link">Магазин</a>
                     <a href="#contacts" class="menu-link">Контакты</a>
-                    <a href="#" class="menu-link cart"><img src="img/cart-icon.png" alt="cart-icon">Корзина</a>
                 </div>
-            </nav>
+                <div class="navigation_cart">
+                    <a href="#" class="menu-link cart"><img src="img/cart-icon.png" alt="cart-icon"><span id="cart">Корзина</span></a>
+                </div>
         </div>
     </div>
 </header>
@@ -59,7 +60,7 @@
 
             </div>
 
-            <div class="slider-content content slider 1">
+            <div class="slider-content slider 1">
                 <div class="slider-content-text">
                     <h2>Долго, дорого, скрупулезно.</h2>
                     <p>Математически выверенный дизайн
